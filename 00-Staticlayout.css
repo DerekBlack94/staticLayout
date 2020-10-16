@@ -284,11 +284,11 @@ a {
      color: black;
      background-color: black;
      background-size: 1000%;
-     height: 300px;
-     width: 1400px;
+     height: 400px;
+     width: 1600px;
      padding-top: 5%;
      object-fit: contain;
-     
+     border-bottom: black solid;
  }
 
  
@@ -307,7 +307,7 @@ a {
      color: white;
      font-family: g, Helvetica, sans-serif;
      text-align: center;
-     font-size: 55px;
+     font-size: 60px;
      font-weight: 800;
      line-height: 55px;
      margin-bottom: 30px;
@@ -328,8 +328,8 @@ a {
  .grid_container{
      background-color: black;
 
-     width: 1250%;
-     height: 200%;
+     width: 1700%;
+     height: 1100%;
      size: 1000%;
 
  }
@@ -347,4 +347,30 @@ a {
 .library_grid_background{
     width: 100%;
     object-fit: contain;
+}
+.bottom_background{
+
+    background-size: 
+    background-color
+    height: 
+    width: 
+}
+.bottom_container{
+    background-color: green;
+    height: 500%;
+    width: 1600%;
+    position:absolute;
+    top: 1025%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.bottom_pictures{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+
+}
+.img{
+    object-fit: cover;
+    overflow: hidden;
 }
